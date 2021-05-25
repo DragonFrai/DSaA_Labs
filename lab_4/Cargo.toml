@@ -1,0 +1,11 @@
+[package]
+name = "lab4"
+version = "0.1.0"
+authors = ["Vladislav <vavus44375@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = { version = "0.8.3", features=["small_rng"] }
+nalgebra = "0.26.2"
